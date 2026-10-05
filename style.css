@@ -1,0 +1,188 @@
+body { 
+    color : black;
+    font-family: Arial, sans-serif;
+    background-color: white 
+    margin: 0;
+    padding: 40px 20px; 
+}
+
+
+button {
+    background-color: rgb(182, 182, 182);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.carte { 
+    background-color: rgb(0, 0, 0)
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 32px
+    border-radius: 12px;
+    }
+
+h1 {
+    color : rgb(55, 55, 62);
+    font-size:30px
+    margin-top: 0;
+}
+
+h2 {
+    color : green;
+    font-size: 21px;
+    margin-top: 30px;       
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    display: inline-block;
+    background-color: rgb(185, 185, 191);
+
+
+}
+
+th {
+    background-color: rgb(39, 36, 36);
+    color: rgb(68, 52, 162);
+}
+
+#loisir {
+    color: blue ;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+
+}
+
+th,
+td {
+  padding: 0.6em;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 35px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: #f1f5f7;
+    color: #263238;
+}
+
+
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    
+    background-color: white;
+    
+    padding: 40px;
+    
+    border-radius: 15px;
+    
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.presentation {
+    font-size: 20px;
+    line-height: 1.6;
+    
+    margin-bottom: 32px;
+}
+
+
+.bouton:hover {
+    background-color: #2f7473;
+}
+
+
+
+table {
+    width: 100%;
+    
+    border-collapse: collapse;
+    
+    font-size: 20px;
+}
+
+
+thead {
+    background-color: #e7f0f1;
+}
+
+
+th,
+td {
+    border: 1px solid #d5dfe2;
+    
+    padding: 17px 15px;
+    
+    text-align: left;
+}
+
+
+th {
+    color: #164c6b;
+    font-weight: 700;
+}
+
+
+th:first-child,
+td:first-child {
+    width: 34%;
+}
+
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .presentation {
+        font-size: 17px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    th,
+    td {
+        padding: 12px 10px;
+    }
+}
